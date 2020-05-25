@@ -55,12 +55,16 @@ ul {
 li {
     display: inline-block;
     font-family: Source Sans Pro;
-    padding: 5px;
+    padding-right: 5px;
 }
 
 a {
     color: black;
     text-decoration: none;
+}
+
+a:hover {
+    color: #33B55F;
 }
 
 img:hover {
@@ -72,6 +76,7 @@ img:hover {
     display: block;
     padding: 1em;
     max-width: 50%;
+    background-color: white;
 }
 
 .right {
@@ -79,6 +84,7 @@ img:hover {
     display: block;
     padding: 1em;
     max-width: 50%;
+    background-color: white;
 }
 
 .row {
@@ -88,29 +94,30 @@ img:hover {
     grid-template-areas: "image text";
 }
 
-.row h4 {
-    font-size: 12px;
-}
 
+.row h2 {
+    font-size: 24px;
+    font-family: Source Sans Pro;
+    text-align: center;
+}
 
 .row h3 {
-    font-size: 18px;
+    font-size: 24px;
     font-family: Source Sans Pro;
-    align-content: center;
 }
 
-.right p {
-    text-align: left;
+.row h4 {
+    font-size: 18px;
 }
 
 footer {
     background-color: black;
+    padding: 1em;
 }
 
 footer a {
     color: white;
     font-family: Source Sans Pro;
-    padding: 1em;
 }
 
 footer a:hover {

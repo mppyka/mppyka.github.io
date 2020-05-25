@@ -1,0 +1,195 @@
+p {
+    color: black;
+    font-size: 18px;
+    background-color: white;
+    padding: 20px;
+    min-width: 240px;
+    max-width: 100%;
+    margin: 20px;
+    text-align: center;
+}
+
+ul {
+    font-size: 18px;
+    list-style: none;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    font-family: Source Sans Pro;
+    padding: 5px;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #3c85c9;
+    border-color: #3c85c9;
+}
+
+h1 {
+    text-align: center;
+    display: block;
+    font-size: 36px;
+    background-color: #3c85c9;
+    padding: 20px;
+    min-width: 240px;
+    max-width: 100%;
+    font-family: Source Sans Pro;
+    margin-bottom: 0em;
+}
+
+h2 {
+    padding: 20px 40px 20px 40px;
+    font-size: 24px;
+    max-width: 100%;
+    margin: 0em;
+    min-width: 240px;
+    display: block;
+    font-family: Source Sans Pro;
+}
+
+h3 {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    margin: 20px;
+    min-width: 240px;
+    max-width: 100%;
+    font-family: Source Sans Pro;
+}
+
+h4 {
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    min-width: 240px;
+}
+
+section {
+    background-color: white;
+    min-width: 280px;
+    margin: 40px;
+    max-width: 100%;
+     
+}
+
+body {
+    background-image: url("images/background.jpg");
+     
+    background-size: 100%;
+    background-attachment: fixed;
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+    margin: 1em;
+    align-content: center;
+    opacity: 1;
+     
+}
+
+img:hover {
+    opacity: 0.5;
+}
+
+#title {
+    color: white;
+    opacity: 1;
+}
+
+#title:hover {
+    opacity: 0.8;
+}
+
+footer {
+    display: block;
+    min-width: 240px;
+    max-width: 100%;
+}
+
+.left {
+    grid-area: image;
+    display: block;
+     
+    width: auto;
+}
+
+.right {
+    grid-area: text;
+    display: block;
+     
+    width: auto;
+    padding: 0%;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1px 1px;
+    grid-template-areas: "image text";
+     
+}
+
+.row h4 {
+    font-size: 12px;
+}
+
+.row h4 {
+    padding: 10px;
+    margin: 0px;
+    align-content: center;
+    text-align: center;
+}
+
+.row h3 {
+    font-size: 18px;
+    font-family: Source Sans Pro;
+    align-content: center;
+}
+
+.right p {
+    text-align: left;
+}
+
+#aboutme {
+    text-align: left;
+}
+
+.foot {
+    margin: 20px;
+    border-color: #3c85c9;
+    border-width: thick;
+    padding: 20px;
+}
+
+.foot p {
+    color: black;
+    align-content: center;
+    padding: 5px;
+}
+
+.footp {
+    text-align: center;
+    align-content: center;
+}
+
+
+.indeximage{
+    min-width: 5rem;
+    align-content: center;
+}
+
+
+@font-face {
+    font-family: Source Sans Pro;
+    src: "fonts/SourceSansPro-Regular";
+}

@@ -67,15 +67,6 @@ a:hover {
     color: #33B55F;
 }
 
-img {
-    max-width:100%;
-    height:auto;
-}
-
-img:hover {
-    opacity: 0.5;
-}
-
 .left {
     grid-area: image;
     display: block;
@@ -97,21 +88,34 @@ img:hover {
     grid-template-areas: "image text";
 }
 
+.row-a {
+    position: relative;
+    display: block;
+}
 
-span .overlay {
-    font-size: 24px;
-    font-family: Source Sans Pro;
+span.overlay {
     position: absolute; 
     width: 100%; 
     height: 100%;
     background-color: black; 
+    display: flex;
+    opacity: 60%;
+    visibility: hidden;
+}
+
+span.overlay-text {
     margin: auto;
+    font-size: 24px;
+    font-family: Source Sans Pro;
+}
+
+span.overlay-text:hover {
+    visibility: visible;
 }
 
 img {
     width: 100%;
 }
-
 
 .row h3 {
     font-size: 24px;

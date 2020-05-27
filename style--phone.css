@@ -1,0 +1,150 @@
+.top {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1em;
+    grid-template-areas: "left" "middle" "right";
+    padding: 1em;
+    margin: 0em;
+}
+
+.top--left {
+    grid-area: left;
+    display: block;
+    color: white;
+    width: 100%;
+}
+
+.top--middle {
+    grid-area: middle;
+    visibility: hidden;
+    color: white;
+    font-size: 32px;
+    font-family: Source Sans Pro, regular;
+}
+
+
+.top--right {
+    grid-area: right;
+    display: block;
+    color: white; 
+}
+
+.top--right a {
+    color: white;
+}
+
+.top--right a:hover {
+    color: #33B55F;
+}
+
+.subtitle {
+    background-color: #33B55F;
+    padding: 0.5em 1em 0.5em 1em;
+    color: white;
+    font-family: Source Sans Pro, regular;
+    font-size: 18px;
+}
+
+ul {
+    font-size: 18px;
+    list-style: none;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    font-family: Source Sans Pro, regular;
+    padding-right: 5px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #33B55F;
+}
+
+.row--left {
+    grid-area: image;
+    display: block;
+    padding: 1em;
+    background-color: white;
+}
+
+.row--right {
+    grid-area: text;
+    display: block;
+    padding: 1em;
+    background-color: white;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr;
+    gap: 1px;
+    grid-template-areas: "image"
+    "text";
+    grid-auto-flow: column;
+}
+
+.row-a {
+    position: relative;
+    display: block;
+}
+
+.overlay {
+    position: absolute; 
+    width: 100%; 
+    height: 100%;
+    background-color: black; 
+    display: flex;
+    visibility: hidden;
+}
+
+.overlay--text {
+    margin: auto;
+    font-size: 24px;
+    font-family: Source Sans Pro, regular;
+}
+
+.overlay :hover {
+    visibility: visible;
+}
+
+img {
+    width: 100%;
+}
+
+.row h3 {
+    font-size: 24px;
+    font-family: Source Sans Pro, regular;
+}
+
+.row h4 {
+    font-size: 18px;
+}
+
+
+footer {
+    background-color: black;
+    padding: 1em;
+}
+
+footer a {
+    color: white;
+    font-family: Source Sans Pro, regular;
+}
+
+footer a:hover {
+    color: #33B55F;
+}
+
+@font-face {
+    font-family: Source Sans Pro, regular;
+    src: "fonts/SourceSansPro, regular-Regular";
+}

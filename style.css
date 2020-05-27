@@ -8,33 +8,33 @@
     margin: 0em;
 }
 
-.topleft {
+.top--left {
     grid-area: left;
     display: block;
     color: white;
     width: 7em;
 }
 
-.topmiddle {
+.top--middle {
     grid-area: middle;
     display: block;
     color: white;
     font-size: 32px;
-    font-family: Source Sans Pro;
+    font-family: Source Sans Pro, regular;
 }
 
 
-.topright {
+.top--right {
     grid-area: right;
     display: block;
     color: white; 
 }
 
-.topright a {
+.top--right a {
     color: white;
 }
 
-.topright a:hover {
+.top--right a:hover {
     color: #33B55F;
 }
 
@@ -42,7 +42,7 @@
     background-color: #33B55F;
     padding: 0.5em 1em 0.5em 1em;
     color: white;
-    font-family: Source Sans Pro;
+    font-family: Source Sans Pro, regular;
     font-size: 18px;
 }
 
@@ -54,7 +54,7 @@ ul {
 
 li {
     display: inline-block;
-    font-family: Source Sans Pro;
+    font-family: Source Sans Pro, regular;
     padding-right: 5px;
 }
 
@@ -67,14 +67,14 @@ a:hover {
     color: #33B55F;
 }
 
-.left {
+.row--left {
     grid-area: image;
     display: block;
     padding: 1em;
     background-color: white;
 }
 
-.right {
+.row--right {
     grid-area: text;
     display: block;
     padding: 1em;
@@ -86,6 +86,7 @@ a:hover {
     grid-template-columns: 50% 50%;
     gap: 1px 1px;
     grid-template-areas: "image text";
+    grid-auto-flow: column;
 }
 
 .row-a {
@@ -93,23 +94,22 @@ a:hover {
     display: block;
 }
 
-span.overlay {
+.overlay {
     position: absolute; 
     width: 100%; 
     height: 100%;
     background-color: black; 
     display: flex;
-    opacity: 60%;
     visibility: hidden;
 }
 
-span.overlay-text {
+.overlay--text {
     margin: auto;
     font-size: 24px;
-    font-family: Source Sans Pro;
+    font-family: Source Sans Pro, regular;
 }
 
-span.overlay-text:hover {
+.overlay :hover {
     visibility: visible;
 }
 
@@ -119,7 +119,7 @@ img {
 
 .row h3 {
     font-size: 24px;
-    font-family: Source Sans Pro;
+    font-family: Source Sans Pro, regular;
 }
 
 .row h4 {
@@ -134,7 +134,7 @@ footer {
 
 footer a {
     color: white;
-    font-family: Source Sans Pro;
+    font-family: Source Sans Pro, regular;
 }
 
 footer a:hover {
@@ -142,6 +142,6 @@ footer a:hover {
 }
 
 @font-face {
-    font-family: Source Sans Pro;
-    src: "fonts/SourceSansPro-Regular";
+    font-family: Source Sans Pro, regular;
+    src: "fonts/SourceSansPro, regular-Regular";
 }

@@ -114,10 +114,12 @@ a:hover {
     margin: auto;
     font-size: 24px;
     font-family: Source Sans Pro, regular;
+    opacity: 100%;
 }
 
-.overlay:hover {
+a:hover .overlay{
     visibility: visible;
+    opacity: 80%;
 }
 
 img {

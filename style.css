@@ -27,6 +27,7 @@
 
 h1 {
     margin: auto;
+    margin-left: 0em;
 }
 
 .top--right {
@@ -115,7 +116,7 @@ a:hover {
     font-family: Source Sans Pro, regular;
 }
 
-.overlay :hover {
+.overlay:hover {
     visibility: visible;
 }
 
@@ -130,6 +131,7 @@ img {
 
 .row h4 {
     font-size: 18px;
+    font-family: Source Sans Pro, regular;
 }
 
 

@@ -13,6 +13,11 @@
     display: block;
     color: white;
     width: 7em;
+    opacity:100%;
+}
+
+.top--left:hover {
+    opacity: 70%;
 }
 
 

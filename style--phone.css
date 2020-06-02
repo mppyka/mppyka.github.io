@@ -1,7 +1,7 @@
 .top {
     background-color: black;
     display: grid;
-    grid-template-columns: 7em 50% 50%;
+    grid-template-columns: 10% 45% 45%;
     gap: 1em;
     grid-template-areas: "left middle right";
     padding: 1em;
@@ -12,7 +12,7 @@
     grid-area: left;
     display: block;
     color: white;
-    width: 7em;
+    max-width: 7em;
 }
 
 
@@ -35,6 +35,7 @@ h1 {
     display: block;
     color: white; 
     margin: auto;
+    font-size: 24px;
 }
 
 .top--right a {
@@ -179,7 +180,7 @@ p {
     color: white;
     font-size: 24px;
     font-family: Source Sans Pro, regular;
-    padding: 1em;
+    text-align: center;
 }
 
 .bottom--middle ul li a:hover {
